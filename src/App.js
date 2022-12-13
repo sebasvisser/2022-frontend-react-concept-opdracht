@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
         Let's start our app!
+        Hoi
     </div>
   );
 }
