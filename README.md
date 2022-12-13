@@ -45,9 +45,9 @@ rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
 
 ### 1.2 Stylingopzet
 
-- [ ] Declareer alvast een CSS-reset in `App.css`. *Pssst*: de property `box-sizing: border-box` komt hier ook goed van pas!
+- [x ] Declareer alvast een CSS-reset in `App.css`. *Pssst*: de property `box-sizing: border-box` komt hier ook goed van pas!
 
-- [ ] De gebruikte fonts in de designs zijn `Quicksand` voor de headings en `Roboto Condensed` voor normale tekst. Deze fonts kun
+- [x ] De gebruikte fonts in de designs zijn `Quicksand` voor de headings en `Roboto Condensed` voor normale tekst. Deze fonts kun
   je gratis vinden op Google Fonts, zorg er alvast voor dat je deze importeert in jouw CSS-bestand en instelt
   als `font-family`.
 
