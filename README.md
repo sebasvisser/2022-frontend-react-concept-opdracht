@@ -61,36 +61,36 @@ rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
     - Zwart `#292929` (voor standaard tekst);
     - Wit `#FFFFFF`;
 
-## Opdracht 2: routing
+## [x ] Opdracht 2: routing
 De Reddit applicatie heeft op dit moment nog geen pagina's en ook geen routing. Dit ga jij zelf implementeren. Maak twee pagina-componenten aan en zorg ervoor dat deze pagina's te bereiken zijn op de volgende urls:
 * Home pagina (`/`)
 * Subreddit specifieke pagina (`/subreddit/:subredditId`, dynamische url)
 
 Zorg dat je test of jouw dynamische routing werkt, door op de Subreddit specifieke pagina de `subredditId` uit te lezen en weer te geven op de pagina. Dit kun je vervolgens testen door handmatig urls in de adresbalk te typen, zoals: `http://localhost:3000/subreddit/todayilearned`.
 
-## Opdracht 3: Homepagina (data ophalen en weergeven)
-* Je haalt 15 posts op en laat deze zien op de homepagina door een request te maken naar dit endpoint: `GET https://www.reddit.com/hot.json?limit=15`. Kijk goed naar de data die je ontvangt en zorg dat je de individuele informatie eerst in de console kunt loggen voor je dit probeert weer te geven op de pagina!
-* Door op de naam van de subreddit te klikken, wordt de gebruiker doorgelinkt naar de subreddit-specificatie-pagina;
-* Door op de titel van de post te klikken, wordt de gebruiker doorgelinkt naar de _echte_ post op Reddit.com;
+## [ ] Opdracht 3: Homepagina (data ophalen en weergeven)
+*  [ ] Je haalt 15 posts op en laat deze zien op de homepagina door een request te maken naar dit endpoint: `GET https://www.reddit.com/hot.json?limit=15`. Kijk goed naar de data die je ontvangt en zorg dat je de individuele informatie eerst in de console kunt loggen voor je dit probeert weer te geven op de pagina!
+*  [ ] Door op de naam van de subreddit te klikken, wordt de gebruiker doorgelinkt naar de subreddit-specificatie-pagina;
+* [ ] Door op de titel van de post te klikken, wordt de gebruiker doorgelinkt naar de _echte_ post op Reddit.com;
 
-## Opdracht 4: Subreddit pagina (data ophalen en weergeven)
-* Je haalt de informatie over een specifieke subreddit op door een request te maken naar dit endpoint: `GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json`,  waarbij je `{SUBREDDIT-HIER]` vervangt door bijvoorbeeld `memes` of `worldnews`.
-* Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
+## [ ]  Opdracht 4: Subreddit pagina (data ophalen en weergeven)
+*  [ ] Je haalt de informatie over een specifieke subreddit op door een request te maken naar dit endpoint: `GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json`,  waarbij je `{SUBREDDIT-HIER]` vervangt door bijvoorbeeld `memes` of `worldnews`.
+* [ ]  Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
 
-## Opdracht 5: Styling
+## [ ]  Opdracht 5: Styling
 Ga ten slotte aan de slag met styling zodat de pagina er precies zo uitziet als het ontwerp!
 
-## Bonusopdracht
-* Zorg dat je (kleine!) componenten maakt van elementen die vaak terugkomen in jouw applicatie, zoals posts, de header, de footer, etc. 
-* Alle aantallen (ups, comments, subscribers) geef je weer in een punt-notatie. Hier schrijf je een aparte helper-functie voor:
-  * 10000 wordt 10.000 
-  * 8005 wordt 8.005 
-  * 1456734 wordt 14.567.34 
-  * 450 wordt 450
-* Alle titels die langer zijn dan 100 karakters, breek je af met `...`. Hier schrijf je een aparte helper-functie voor.
-* Tijdens het ophalen van de data laat je de gebruiker duidelijk zien dat dat er informatie geladen wordt; 
-* Als er iets mis gaat bij het ophalen van de data, geef je een foutmelding weer op de pagina;
-* In het tabblad wordt een eigen icoontje en titel weergegeven (bijvoorbeeld het logo van Reddit)
+## [ ]  Bonusopdracht
+*  [ ] Zorg dat je (kleine!) componenten maakt van elementen die vaak terugkomen in jouw applicatie, zoals posts, de header, de footer, etc. 
+* [ ] Alle aantallen (ups, comments, subscribers) geef je weer in een punt-notatie. Hier schrijf je een aparte helper-functie voor:
+  * [ ]  10000 wordt 10.000 
+  * [ ]  8005 wordt 8.005 
+  * [ ]  1456734 wordt 14.567.34 
+  * [ ]  450 wordt 450
+*  [ ] Alle titels die langer zijn dan 100 karakters, breek je af met `...`. Hier schrijf je een aparte helper-functie voor.
+*  [ ] Tijdens het ophalen van de data laat je de gebruiker duidelijk zien dat dat er informatie geladen wordt; 
+* [ ]  Als er iets mis gaat bij het ophalen van de data, geef je een foutmelding weer op de pagina;
+* [ ]  In het tabblad wordt een eigen icoontje en titel weergegeven (bijvoorbeeld het logo van Reddit)
 
 ## Schermontwerpen
 De screenshots zijn erg groot. Download de screenshots om ze te bekijken:
