@@ -75,7 +75,7 @@ Zorg dat je test of jouw dynamische routing werkt, door op de Subreddit specifie
 
 ## [ ]  Opdracht 4: Subreddit pagina (data ophalen en weergeven)
 *  [ ] Je haalt de informatie over een specifieke subreddit op door een request te maken naar dit endpoint: `GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json`,  waarbij je `{SUBREDDIT-HIER]` vervangt door bijvoorbeeld `memes` of `worldnews`.
-* [ ]  Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
+* [x ]  Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
 
 ## [ ]  Opdracht 5: Styling
 Ga ten slotte aan de slag met styling zodat de pagina er precies zo uitziet als het ontwerp!
