@@ -34,13 +34,13 @@ Wanneer je aan een nieuw project gaat beginnen, maak je eerst een goede basis. A
 rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
 
 ### 1.1 Projectopzet
-
-- [ ] Maak een eigen project aan. Maak in het project alle benodigde bestanden en mappen aan, zoals een `pages`, `components`, `helpers` en `assets`. Doe dat volgens [deze structuur](#voorbeeld-mappen-structuur). Je kunt er vanuit gaan dat je twee pagina's nodig zult hebben: _Home_ en _Subreddit_. Vergeet de `.idea`-map niet toe te voegen aan jouw `.gitignore`-bestand.
-- [ ] Download de afbeeldingen uit deze repository en plaats deze in jouw eigen `assets`-map.
-- [ ] Maak een repository aan op www.GitHub.com voor jouw project.
-- [ ] Initialiseer Git in jouw project. Maak direct een commit en koppel daarna jouw repository aan dit project volgens de
+#TODO
+- [x ] Maak een eigen project aan. Maak in het project alle benodigde bestanden en mappen aan, zoals een `pages`, `components`, `helpers` en `assets`. Doe dat volgens [deze structuur](#voorbeeld-mappen-structuur). Je kunt er vanuit gaan dat je twee pagina's nodig zult hebben: _Home_ en _Subreddit_. Vergeet de `.idea`-map niet toe te voegen aan jouw `.gitignore`-bestand.
+- [x ] Download de afbeeldingen uit deze repository en plaats deze in jouw eigen `assets`-map.
+- [x ] Maak een repository aan op www.GitHub.com voor jouw project.
+- [x ] Initialiseer Git in jouw project. Maak direct een commit en koppel daarna jouw repository aan dit project volgens de
   instructies op GitHub.
-- [ ] Wanner dit is gelukt, maak je een feature-branch aan. Op deze branch schrijf je jouw uitwerkingen, zodat
+- [x ] Wanner dit is gelukt, maak je een feature-branch aan. Op deze branch schrijf je jouw uitwerkingen, zodat
   deze later gemakkelijk kunnen worden nagekeken in een Pull Request.
 
 ### 1.2 Stylingopzet
