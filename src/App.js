@@ -7,7 +7,7 @@ function App() {
       <>
           <Routes>
               <Route path="/" element={<Home/>}/>
-              <Route path="/faq" element={<Faq/>}/>
+              <Route path="/subreddit/:id" element={<Subreddit/>}/>
           </Routes>
       </>
   );
