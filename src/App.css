@@ -28,11 +28,23 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
     isolation: isolate;
 }
+/* Kleur Variabelen maken */
+:root{
+    --rood : #dd3038;
+    --oranje : #e7613a;
+    --licht-oranje : #FDF4F2;
+    --zwart : #292929;
+    --wit : #FFFFFF;
+}
 
+/* Eigen CSS */
 body, p, div {
     font-family: "Roboto Condensed";
+    color: var(--zwart);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Quicksand";
 }
+
+

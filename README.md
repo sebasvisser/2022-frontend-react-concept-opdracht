@@ -51,7 +51,7 @@ rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
   je gratis vinden op Google Fonts, zorg er alvast voor dat je deze importeert in jouw CSS-bestand en instelt
   als `font-family`.
 
-- [ ] De ontwerper heeft de gebruikte kleuren voor ons
+- [x ] De ontwerper heeft de gebruikte kleuren voor ons
   aangeleverd: [bekijk het kleurenpalet hier](https://coolors.co/dd3038-e7613a-fdf4f2-ffffff-292929). Het is handig om
   deze kleuren bovenaan jouw CSS-bestand te plakken, zodat je ze gemakkelijk kunt kopiëren wanneer je ze nodig
   hebt. Het gaat om de volgende HEX-codes:
