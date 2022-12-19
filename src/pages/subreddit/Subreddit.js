@@ -41,15 +41,25 @@ function Subreddit() {
 
     return (
         <>
-            <h2>Title</h2>
-            <p id="subreddit-name"></p>
-            <h2>Description</h2>
-            <p id="subreddit-description"></p>
-            <h2>Number of Subscribers</h2>
-            <p id="subreddit-subscribers"></p>
-            <div>Het Subreddit is {id}</div>
+            <header>
+                <h1>r/{id}</h1>
+                <h2>Subreddit specifications</h2>
+            </header>
+            <section>
+                <h2>Title</h2>
+                <p id="subreddit-name"></p>
+                <h2>Description</h2>
+                <p id="subreddit-description"></p>
+                <h2>Number of Subscribers</h2>
+                <p id="subreddit-subscribers"></p>
+                <div>Het Subreddit is {id}</div>
+                <NavLink to="/">"Take me back</NavLink>
 
-            <NavLink to="/">"Take me back</NavLink>
+            </section>
+           <footer>
+               <p>In opdracht van hogecshool Novi &copy; 2022</p>
+           </footer>
+
         </>
 
     );
