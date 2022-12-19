@@ -1,0 +1,62 @@
+/* Import van Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* CSS reset van https://www.joshwcomeau.com/css/custom-css-reset/ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+/* Kleur Variabelen maken */
+:root{
+    --rood : #dd3038;
+    --oranje : #e7613a;
+    --licht-oranje : #FDF4F2;
+    --zwart : #292929;
+    --wit : #FFFFFF;
+}
+
+/* Eigen CSS */
+body, p, div {
+    font-family: "Roboto Condensed";
+    color: var(--zwart);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand";
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:    center;
+    margin: 10%;
+    background: linear-gradient(to bottom, var(--rood), var(--oranje));
+}
+
+footer {
+    background: var(--zwart);
+    color: var(--wit);
+}

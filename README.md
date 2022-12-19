@@ -34,24 +34,24 @@ Wanneer je aan een nieuw project gaat beginnen, maak je eerst een goede basis. A
 rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
 
 ### 1.1 Projectopzet
-
-- [ ] Maak een eigen project aan. Maak in het project alle benodigde bestanden en mappen aan, zoals een `pages`, `components`, `helpers` en `assets`. Doe dat volgens [deze structuur](#voorbeeld-mappen-structuur). Je kunt er vanuit gaan dat je twee pagina's nodig zult hebben: _Home_ en _Subreddit_. Vergeet de `.idea`-map niet toe te voegen aan jouw `.gitignore`-bestand.
-- [ ] Download de afbeeldingen uit deze repository en plaats deze in jouw eigen `assets`-map.
-- [ ] Maak een repository aan op www.GitHub.com voor jouw project.
-- [ ] Initialiseer Git in jouw project. Maak direct een commit en koppel daarna jouw repository aan dit project volgens de
+#TODO
+- [x ] Maak een eigen project aan. Maak in het project alle benodigde bestanden en mappen aan, zoals een `pages`, `components`, `helpers` en `assets`. Doe dat volgens [deze structuur](#voorbeeld-mappen-structuur). Je kunt er vanuit gaan dat je twee pagina's nodig zult hebben: _Home_ en _Subreddit_. Vergeet de `.idea`-map niet toe te voegen aan jouw `.gitignore`-bestand.
+- [x ] Download de afbeeldingen uit deze repository en plaats deze in jouw eigen `assets`-map.
+- [x ] Maak een repository aan op www.GitHub.com voor jouw project.
+- [x ] Initialiseer Git in jouw project. Maak direct een commit en koppel daarna jouw repository aan dit project volgens de
   instructies op GitHub.
-- [ ] Wanner dit is gelukt, maak je een feature-branch aan. Op deze branch schrijf je jouw uitwerkingen, zodat
+- [x ] Wanner dit is gelukt, maak je een feature-branch aan. Op deze branch schrijf je jouw uitwerkingen, zodat
   deze later gemakkelijk kunnen worden nagekeken in een Pull Request.
 
 ### 1.2 Stylingopzet
 
-- [ ] Declareer alvast een CSS-reset in `App.css`. *Pssst*: de property `box-sizing: border-box` komt hier ook goed van pas!
+- [x ] Declareer alvast een CSS-reset in `App.css`. *Pssst*: de property `box-sizing: border-box` komt hier ook goed van pas!
 
-- [ ] De gebruikte fonts in de designs zijn `Quicksand` voor de headings en `Roboto Condensed` voor normale tekst. Deze fonts kun
+- [x ] De gebruikte fonts in de designs zijn `Quicksand` voor de headings en `Roboto Condensed` voor normale tekst. Deze fonts kun
   je gratis vinden op Google Fonts, zorg er alvast voor dat je deze importeert in jouw CSS-bestand en instelt
   als `font-family`.
 
-- [ ] De ontwerper heeft de gebruikte kleuren voor ons
+- [x ] De ontwerper heeft de gebruikte kleuren voor ons
   aangeleverd: [bekijk het kleurenpalet hier](https://coolors.co/dd3038-e7613a-fdf4f2-ffffff-292929). Het is handig om
   deze kleuren bovenaan jouw CSS-bestand te plakken, zodat je ze gemakkelijk kunt kopiëren wanneer je ze nodig
   hebt. Het gaat om de volgende HEX-codes:
@@ -61,36 +61,36 @@ rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
     - Zwart `#292929` (voor standaard tekst);
     - Wit `#FFFFFF`;
 
-## Opdracht 2: routing
+## [x ] Opdracht 2: routing
 De Reddit applicatie heeft op dit moment nog geen pagina's en ook geen routing. Dit ga jij zelf implementeren. Maak twee pagina-componenten aan en zorg ervoor dat deze pagina's te bereiken zijn op de volgende urls:
 * Home pagina (`/`)
 * Subreddit specifieke pagina (`/subreddit/:subredditId`, dynamische url)
 
 Zorg dat je test of jouw dynamische routing werkt, door op de Subreddit specifieke pagina de `subredditId` uit te lezen en weer te geven op de pagina. Dit kun je vervolgens testen door handmatig urls in de adresbalk te typen, zoals: `http://localhost:3000/subreddit/todayilearned`.
 
-## Opdracht 3: Homepagina (data ophalen en weergeven)
-* Je haalt 15 posts op en laat deze zien op de homepagina door een request te maken naar dit endpoint: `GET https://www.reddit.com/hot.json?limit=15`. Kijk goed naar de data die je ontvangt en zorg dat je de individuele informatie eerst in de console kunt loggen voor je dit probeert weer te geven op de pagina!
-* Door op de naam van de subreddit te klikken, wordt de gebruiker doorgelinkt naar de subreddit-specificatie-pagina;
-* Door op de titel van de post te klikken, wordt de gebruiker doorgelinkt naar de _echte_ post op Reddit.com;
+## [ ] Opdracht 3: Homepagina (data ophalen en weergeven)
+*  [ ] Je haalt 15 posts op en laat deze zien op de homepagina door een request te maken naar dit endpoint: `GET https://www.reddit.com/hot.json?limit=15`. Kijk goed naar de data die je ontvangt en zorg dat je de individuele informatie eerst in de console kunt loggen voor je dit probeert weer te geven op de pagina!
+*  [ ] Door op de naam van de subreddit te klikken, wordt de gebruiker doorgelinkt naar de subreddit-specificatie-pagina;
+* [ ] Door op de titel van de post te klikken, wordt de gebruiker doorgelinkt naar de _echte_ post op Reddit.com;
 
-## Opdracht 4: Subreddit pagina (data ophalen en weergeven)
-* Je haalt de informatie over een specifieke subreddit op door een request te maken naar dit endpoint: `GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json`,  waarbij je `{SUBREDDIT-HIER]` vervangt door bijvoorbeeld `memes` of `worldnews`.
-* Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
+## [ ]  Opdracht 4: Subreddit pagina (data ophalen en weergeven)
+*  [ ] Je haalt de informatie over een specifieke subreddit op door een request te maken naar dit endpoint: `GET https://www.reddit.com/r/{SUBREDDIT-HIER}/about.json`,  waarbij je `{SUBREDDIT-HIER]` vervangt door bijvoorbeeld `memes` of `worldnews`.
+* [x ]  Zorg dat de gebruiker terug kan naar de homepagina door op de "Take me back"-link onderaan de pagina te klikken.
 
-## Opdracht 5: Styling
+## [ ]  Opdracht 5: Styling
 Ga ten slotte aan de slag met styling zodat de pagina er precies zo uitziet als het ontwerp!
 
-## Bonusopdracht
-* Zorg dat je (kleine!) componenten maakt van elementen die vaak terugkomen in jouw applicatie, zoals posts, de header, de footer, etc. 
-* Alle aantallen (ups, comments, subscribers) geef je weer in een punt-notatie. Hier schrijf je een aparte helper-functie voor:
-  * 10000 wordt 10.000 
-  * 8005 wordt 8.005 
-  * 1456734 wordt 14.567.34 
-  * 450 wordt 450
-* Alle titels die langer zijn dan 100 karakters, breek je af met `...`. Hier schrijf je een aparte helper-functie voor.
-* Tijdens het ophalen van de data laat je de gebruiker duidelijk zien dat dat er informatie geladen wordt; 
-* Als er iets mis gaat bij het ophalen van de data, geef je een foutmelding weer op de pagina;
-* In het tabblad wordt een eigen icoontje en titel weergegeven (bijvoorbeeld het logo van Reddit)
+## [ ]  Bonusopdracht
+*  [ ] Zorg dat je (kleine!) componenten maakt van elementen die vaak terugkomen in jouw applicatie, zoals posts, de header, de footer, etc. 
+* [ ] Alle aantallen (ups, comments, subscribers) geef je weer in een punt-notatie. Hier schrijf je een aparte helper-functie voor:
+  * [ ]  10000 wordt 10.000 
+  * [ ]  8005 wordt 8.005 
+  * [ ]  1456734 wordt 14.567.34 
+  * [ ]  450 wordt 450
+*  [ ] Alle titels die langer zijn dan 100 karakters, breek je af met `...`. Hier schrijf je een aparte helper-functie voor.
+*  [ ] Tijdens het ophalen van de data laat je de gebruiker duidelijk zien dat dat er informatie geladen wordt; 
+* [ ]  Als er iets mis gaat bij het ophalen van de data, geef je een foutmelding weer op de pagina;
+* [ ]  In het tabblad wordt een eigen icoontje en titel weergegeven (bijvoorbeeld het logo van Reddit)
 
 ## Schermontwerpen
 De screenshots zijn erg groot. Download de screenshots om ze te bekijken:
